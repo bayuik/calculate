@@ -58,7 +58,7 @@ class _LoginPageState extends State<LoginPage> {
                 onPressed: () {
                   if (username == usernameController.text &&
                       password == passwordController.text) {
-                    print('pindah home');
+                    Navigator.pushNamed(context, '/home');
                   } else if (usernameController.text.isEmpty) {
                     Fluttertoast.showToast(
                       msg: 'Username tidak boleh kosong',
