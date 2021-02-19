@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Calculate',
         theme: ThemeData(primarySwatch: Colors.blue),
-        initialRoute: '/konversi',
+        initialRoute: '/',
         routes: {
           '/': (context) => LoginPage(),
           '/home': (context) => Home(),
