@@ -12,9 +12,7 @@ class Home extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             MaterialButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/fisika');
-              },
+              onPressed: () => Navigator.pushNamed(context, '/fisika'),
               minWidth: 100,
               height: 40,
               shape: RoundedRectangleBorder(
@@ -26,7 +24,7 @@ class Home extends StatelessWidget {
               ),
             ),
             MaterialButton(
-              onPressed: () {},
+              onPressed: () => Navigator.pushNamed(context, '/konversi'),
               minWidth: 100,
               height: 40,
               shape: RoundedRectangleBorder(

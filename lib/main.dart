@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:calculate/login_page.dart';
 import 'package:calculate/home.dart';
 import 'package:calculate/hitung_fisika.dart';
+import 'package:calculate/konversi.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,11 +14,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Calculate',
         theme: ThemeData(primarySwatch: Colors.blue),
-        initialRoute: '/',
+        initialRoute: '/konversi',
         routes: {
           '/': (context) => LoginPage(),
           '/home': (context) => Home(),
           '/fisika': (context) => HitungFisika(),
+          '/konversi': (context) => Konversi(),
         });
   }
 }

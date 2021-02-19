@@ -31,11 +31,11 @@ class _HitungFisikaState extends State<HitungFisika> {
                 margin: EdgeInsets.all(30),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Colors.green,
+                  color: Colors.lightGreenAccent,
                 ),
                 child: Column(
                   children: <Widget>[
-                    Text('Hitung Luas'),
+                    Text('Hitung Luas', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
                     Container(
                       child: TextFormField(
                         controller: panjangL,
@@ -71,11 +71,11 @@ class _HitungFisikaState extends State<HitungFisika> {
                 margin: EdgeInsets.all(30),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Colors.yellow,
+                  color: Colors.lightBlueAccent,
                 ),
                 child: Column(
                   children: <Widget>[
-                    Text('Hitung Volume'),
+                    Text('Hitung Volume', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
                     Container(
                       child: TextFormField(
                         controller: panjangV,
@@ -98,7 +98,7 @@ class _HitungFisikaState extends State<HitungFisika> {
                       minWidth: 100,
                       height: 40,
                       child: Text('Submit'),
-                      color: Colors.blue,
+                      color: Colors.lightGreenAccent,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),
