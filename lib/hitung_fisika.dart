@@ -18,9 +18,10 @@ class _HitungFisikaState extends State<HitungFisika> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffd8e3e7),
       appBar: AppBar(
         title: Text('Hitung Fisika'),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff005f99),
       ),
       body: SingleChildScrollView(
         child: Center(
@@ -31,11 +32,15 @@ class _HitungFisikaState extends State<HitungFisika> {
                 margin: EdgeInsets.all(30),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Colors.lightGreenAccent,
+                  color: Color(0xff00ead3),
                 ),
                 child: Column(
                   children: <Widget>[
-                    Text('Hitung Luas', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+                    Text(
+                      'Hitung Luas',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold),
+                    ),
                     Container(
                       child: TextFormField(
                         controller: panjangL,
@@ -51,8 +56,8 @@ class _HitungFisikaState extends State<HitungFisika> {
                     MaterialButton(
                       minWidth: 100,
                       height: 40,
-                      child: Text('Submit'),
-                      color: Colors.blue,
+                      child: Text('Submit', style: TextStyle(color: Colors.white),),
+                      color: Color(0xff005f99),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),
@@ -71,11 +76,15 @@ class _HitungFisikaState extends State<HitungFisika> {
                 margin: EdgeInsets.all(30),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Colors.lightBlueAccent,
+                  color: Color(0xff00ead3),
                 ),
                 child: Column(
                   children: <Widget>[
-                    Text('Hitung Volume', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+                    Text(
+                      'Hitung Volume',
+                      style: TextStyle(
+                          color: Colors.white, fontWeight: FontWeight.bold),
+                    ),
                     Container(
                       child: TextFormField(
                         controller: panjangV,
@@ -97,8 +106,8 @@ class _HitungFisikaState extends State<HitungFisika> {
                     MaterialButton(
                       minWidth: 100,
                       height: 40,
-                      child: Text('Submit'),
-                      color: Colors.lightGreenAccent,
+                      child: Text('Submit', style: TextStyle(color: Colors.white),),
+                      color: Color(0xff005f99),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),

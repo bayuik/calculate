@@ -16,8 +16,10 @@ class _KonversiState extends State<Konversi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffd8e3e7),
         appBar: AppBar(
           title: Text('Konversi Panjang'),
+          backgroundColor: Color(0xff005f99),
         ),
         body: SingleChildScrollView(
           child: Center(
@@ -153,7 +155,7 @@ class _KonversiState extends State<Konversi> {
               ),
               SizedBox(height: 50),
               MaterialButton(
-                color: Colors.blue,
+                color: Color(0xff005f99),
                 child: Text(
                   'Konversi',
                   style: TextStyle(

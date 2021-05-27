@@ -7,8 +7,8 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  String username = 'udacodingid';
-  String password = 'udacodingJaya2021';
+  String username = 'bayuik';
+  String password = 'bayuik123';
 
   var usernameController = TextEditingController();
   var passwordController = TextEditingController();

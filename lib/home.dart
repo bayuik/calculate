@@ -4,8 +4,10 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffd8e3e7),
       appBar: AppBar(
         title: Text('Home'),
+        backgroundColor: Color(0xff005f99),
       ),
       body: Center(
         child: Column(
